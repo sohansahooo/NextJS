@@ -1,16 +1,11 @@
-// pages/index.js
-import React from 'react';
+import React from 'react'
 
-import MainContent from './MainContent/page';
-import Sidebar from './SideBar/page';
+const page = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
-const HomePage = () => {
-    return (
-        <div>
-            <Sidebar />
-            <MainContent />
-        </div>
-    );
-};
-
-export default HomePage;
+export default page
